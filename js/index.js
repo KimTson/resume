@@ -26,6 +26,10 @@ $(function () {
   $("main").on("click", function () {
     $(".nav-bar").removeClass("hidden");
   });
+  // 导航选项在移动端的点击---一次取消导航栏
+  $(".nav-bar li a").on("click", function () {
+    $(".nav-bar").toggleClass("hidden");
+  });
 
   // 微信扫码弹出和关闭
   $(".wechat-btn").on("click", function () {
