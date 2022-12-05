@@ -132,5 +132,10 @@ $(function () {
         .children("a")
         .removeClass("active");
     }
+    if ($(this).scrollTop() > 0) {
+      $(".return-top").css("display", "block");
+    } else {
+      $(".return-top").css("display", "none");
+    }
   });
 });

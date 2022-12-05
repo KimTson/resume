@@ -20,6 +20,13 @@
       "unicode_decimal": 58923
     },
     {
+      "icon_id": "6762076",
+      "name": "火箭",
+      "font_class": "huojian",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
       "icon_id": "6940833",
       "name": "html5",
       "font_class": "html",

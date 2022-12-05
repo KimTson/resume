@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1670145896566') format('truetype');
+  src: url('iconfont.ttf?t=1670266446439') format('truetype');
 }
 
 .iconfont {
@@ -17,6 +17,10 @@
 
 .icon-nav:before {
   content: "\e62b";
+}
+
+.icon-huojian:before {
+  content: "\e6ab";
 }
 
 .icon-html:before {
