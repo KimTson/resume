@@ -1,0 +1,86 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1125578",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "1185465",
+      "name": "nav",
+      "font_class": "nav",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "6940833",
+      "name": "html5",
+      "font_class": "html",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "10905628",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "12579295",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e72a",
+      "unicode_decimal": 59178
+    },
+    {
+      "icon_id": "13743932",
+      "name": "gitee-fill-round",
+      "font_class": "gitee-fill-round",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "15378279",
+      "name": "css3",
+      "font_class": "css3",
+      "unicode": "eb76",
+      "unicode_decimal": 60278
+    },
+    {
+      "icon_id": "15378494",
+      "name": "javascript",
+      "font_class": "javascript",
+      "unicode": "ebd8",
+      "unicode_decimal": 60376
+    },
+    {
+      "icon_id": "15378503",
+      "name": "jquery",
+      "font_class": "jquery",
+      "unicode": "ebdd",
+      "unicode_decimal": 60381
+    },
+    {
+      "icon_id": "15378769",
+      "name": "sass",
+      "font_class": "sass",
+      "unicode": "ec8c",
+      "unicode_decimal": 60556
+    },
+    {
+      "icon_id": "21901441",
+      "name": "logo-vue",
+      "font_class": "logo-vue",
+      "unicode": "e8c1",
+      "unicode_decimal": 59585
+    }
+  ]
+}

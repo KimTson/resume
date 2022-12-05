@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1670145896566') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-guanbi:before {
+  content: "\e61b";
+}
+
+.icon-nav:before {
+  content: "\e62b";
+}
+
+.icon-html:before {
+  content: "\e659";
+}
+
+.icon-weixin:before {
+  content: "\e630";
+}
+
+.icon-github:before {
+  content: "\e72a";
+}
+
+.icon-gitee-fill-round:before {
+  content: "\e686";
+}
+
+.icon-css3:before {
+  content: "\eb76";
+}
+
+.icon-javascript:before {
+  content: "\ebd8";
+}
+
+.icon-jquery:before {
+  content: "\ebdd";
+}
+
+.icon-sass:before {
+  content: "\ec8c";
+}
+
+.icon-logo-vue:before {
+  content: "\e8c1";
+}
+

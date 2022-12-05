@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人简历</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.min.css" />
+    <link rel="shortcut icon" href="./简历.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./font/iconfont.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="author-name-box">
+          <p>个人简历</p>
+        </div>
+        <ul class="nav-bar">
+          <li><a href="#home" class="active">主页</a></li>
+          <li><a href="#about">关于我</a></li>
+          <li><a href="#skills">技能</a></li>
+          <li><a href="#work">作品</a></li>
+          <li><a href="./resume/卢剑聪的个人简历.pdf">简历链接</a></li>
+        </ul>
+        <div class="iconfont icon-nav nav-btn"><div/>
+      </nav>
+    </header>
+    <main>
+      <!-- 首页 -->
+      <div id="home">
+        <div class="container">
+          <h2>
+            Hi,<br>
+            我是 <strong>KimTson</strong><br>
+            我正在找前端工作<br>
+            <strong class="typewriter"></strong>
+          </h2>
+        </div>
+        <a href="tel: 13423953800">联系我</a>
+        <div class="social-media">
+          <a class="iconfont icon-weixin wechat-btn" href="javascript:"></a>
+          <a class="iconfont icon-github" href="https://github.com/KimTson" target="_blank"></a>
+          <a class="iconfont icon-gitee-fill-round" href="https://gitee.com/kimtson" target="_blank">
+          </a>
+        </div>
+      </div>
+      <!-- 正文 -->
+      <aside>
+        <div id="about">
+          <h2>关于我</h2>
+          <div class="article">
+            <img src="./images/work5.jpg" alt="图片">
+            <h2>我是KimTson</h2>
+            <p>本科毕业于东莞理工学院，在今年6月份开始自学Web前端，我刚开始接触前端是在大三下学期，自己照着教程搭建了一个hexo静态博客，后来专业课繁忙，敲了了几天代码后不了了之，虽然时间仓促，但这个经历让我对前端有了一定的了解并最终喜欢上前端这个技术。</p>
+          </div>
+        </div>
+        <div id="skills">
+          <h2>技能</h2>
+          <div class="article">
+            <h2>个人技能</h2>
+            <img src="./images/work4.jpg" alt="图片">
+            <p>熟悉HTML、CSS、JavaScript并熟练地进行项目开发；了解ES6及其后续版本的一些新特性，对ES6中的原型链和闭包有较清晰的认知，熟悉前后端分离的模式、对MVVM模型有直观的认知，了解Vue2全家桶，了解Vue3，了解Vue的生命周期，使用过NPM、Webpack和Git等。</p>
+          </div>
+          <div id="chart-container"></div>
+        </div>
+        <div id="work">
+          <h2>作品</h2>
+          
+        </div>
+        <div id="contact"></div>
+      </aside>
+    </main>
+    <footer>
+      <p>Copyright © 2022 by KimTson</p>
+    </footer>
+    <div class="wechat">
+      <div class="qr-code">
+        <div class="iconfont icon-guanbi close"></div>
+        <img src="./images/wechatcard.png" alt="微信扫一扫">
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.0/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </body>
+</html>
